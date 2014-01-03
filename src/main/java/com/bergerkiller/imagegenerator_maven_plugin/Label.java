@@ -97,7 +97,7 @@ public class Label {
 					found = true;
 					// Parse the date format
 					String format = drawnText.substring(start + 6, end);
-					if (format.isEmpty()) {
+					if (format.length() == 0) {
 						format = "dd-MM-yyyy";
 					}
 					try {
